@@ -11,6 +11,7 @@ body {
     align-items: center;
     background-color: #1f2937;
     padding: 0px 100px;
+    gap: 25px;
 }
 
 .header-logo {
@@ -24,7 +25,6 @@ body {
     font-size: 18px;
     color: #e5e7eb;
 }
-
 
 .hero-div {
     display: flex;
