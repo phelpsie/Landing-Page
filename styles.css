@@ -1,6 +1,7 @@
 html {
     font-family: "Roboto", Arial, sans-serif;
 }
+
 .header-div {
     display: flex;
     align-items: center;
@@ -17,4 +18,41 @@ html {
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
+}
+
+
+.hero-div {
+    display: flex;
+    background-color: #1f2937;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #f9faf8;
+}
+
+.hero-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.hero-button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 7px;
+    padding: 4px 25px;
+    border: #3882f6;
+}
+
+.hero-image-div {
+    background-color: darkgrey;
+    min-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.placeholder-text {
+    color: whitesmoke;
 }
