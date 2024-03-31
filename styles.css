@@ -2,10 +2,15 @@ html {
     font-family: "Roboto", Arial, sans-serif;
 }
 
+body {
+    margin: 0;
+}
+
 .header-div {
     display: flex;
     align-items: center;
     background-color: #1f2937;
+    padding: 0px 100px;
 }
 
 .header-logo {
@@ -24,6 +29,8 @@ html {
 .hero-div {
     display: flex;
     background-color: #1f2937;
+    padding: 50px 100px 100px 100px;
+    gap: 25px;
 }
 
 .hero-title {
