@@ -1,12 +1,20 @@
+html {
+    font-family: "Roboto", Arial, sans-serif;
+}
 .header-div {
     display: flex;
     align-items: center;
+    background-color: #1f2937;
 }
 
 .header-logo {
     margin-right: auto;
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .header-link-one, .header-link-two, .header-link-three {
     text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
 }
