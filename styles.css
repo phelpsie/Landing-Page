@@ -72,7 +72,6 @@ body {
 img {
     width: 100px;
     height: 100px;
-    max-width: 200px;
     margin: 0 auto;
     padding: 0px;
     display: flex;
@@ -101,30 +100,32 @@ img {
     width: 100px;
   }
 
-.beach1 {
+.photo {
     height: 100px;
     width: 100px;
     border-radius: 15px;
     border:solid 3px #3882F6;
 }
 
-.beach2 {
-    height: 100px;
-    width: 100px;
-    border-radius: 15px;
-    border: solid 3px #3882F6;
+.quote-div {
+   background-color: #e5e7eb; 
+   padding: 100px 200px;    
 }
 
-.beach3 {
-    height: 100px;
-    width: 100px;
-    border-radius: 15px;
-    border: solid 3px #3882F6;
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
 }
 
-.beach4 {
-    height: 100px;
-    width: 100px;
-    border-radius: 15px;
-    border: solid 3px #3882F6;
+.quote-author {
+    color: #1f2937;
+    font-weight: 900;
+    text-align: end;
+    padding-right: 35px;
+}
+
+.signup-div-box {
+    background-color: #3882F6;
 }
