@@ -50,7 +50,13 @@ body {
     color: white;
     border-radius: 7px;
     padding: 4px 25px;
-    border: #3882f6;
+    border: solid #3882f6 1px;
+}
+
+.hero-button:hover {
+    cursor: pointer;
+    background-color: #1f2937;
+    border-color: #3882F6;
 }
 
 .hero-image-div {
@@ -126,6 +132,46 @@ img {
     padding-right: 35px;
 }
 
+.signup-div {
+    padding: 50px 100px;
+}
+
 .signup-div-box {
     background-color: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+    padding: 25px 20px;
+    gap: 15px;
+}
+
+.signup-title {
+    font-size: large;
+    font-weight: 600;
+}
+
+.signup-subtext {
+    font-size: medium;
+    font-weight: 300;
+}
+
+.signup-button-div {
+
+}
+
+.signup-button {
+    color: white;
+    background-color: #3882F6;
+    border: solid white 1px;
+    border-radius: 7px;
+    padding: 4px 25px;
+    display: flex;
+}
+
+.signup-button:hover {
+    color: #3882F6;
+    cursor: pointer;
+    background-color: white;
 }
