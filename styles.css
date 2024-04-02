@@ -45,6 +45,11 @@ body {
     font-size: 18px;
 }
 
+button {
+    width: 100px;
+    height: 28px;
+}
+
 .hero-button {
     background-color: #3882f6;
     color: white;
@@ -61,13 +66,11 @@ body {
 
 .hero-image-div {
     background-color: darkgrey;
-    min-width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 300px;
-    height: 200px;
-    flex 0 0 1;
+    min-width: 300px;
+    min-height: 200px;
     padding: 10px;
 }
 
@@ -144,7 +147,7 @@ img {
     align-items: center;
     border-radius: 5px;
     padding: 25px 20px;
-    gap: 15px;
+    gap: 25px;
 }
 
 .signup-title {
@@ -155,10 +158,6 @@ img {
 .signup-subtext {
     font-size: medium;
     font-weight: 300;
-}
-
-.signup-button-div {
-
 }
 
 .signup-button {
@@ -183,4 +182,5 @@ img {
     justify-content: center;
     align-items: center;
     height: 60px;
+    font-size: small;
 }
